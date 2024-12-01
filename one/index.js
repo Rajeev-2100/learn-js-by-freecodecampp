@@ -1,31 +1,70 @@
 // document.getElementById("count-el").innerText = 5
 
 
-let count = 5
 
-// console.log(count);
+// Create a variable. bonusPoints. Initialize it as 50. Increase it to 
+// 100. Decrease it down to 25, and then finally increase it to 70
+// console the value after each step
 
-// 1:> Create a variable, myAge and set its value to your age 
+let bonusPoints = 50
+console.log(bonusPoints)
 
-// let myAge = 22
+bonusPoints = bonusPoints + 50
+console.log(bonusPoints)
+
+bonusPoints = bonusPoints - 75
+console.log(bonusPoints)
+
+bonusPoints = bonusPoints + 45
+console.log(bonusPoints)
 
 
-// 2:> Log the myAge variable to the console
 
-// console.log(myAge)
 
-// 1. Create two variables, myAge and humanDogRatio 
-// 2. Multiply the two together and store the result in myDogAge
-// 3. Log myDogAge to the console
 
-let myAge = 22
-let humanDogRatio = 7 
 
-let myDogAge = myAge * humanDogRatio
 
-console.log("My Dog Age: ", myDogAge)
 
-console.log("hello World")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
