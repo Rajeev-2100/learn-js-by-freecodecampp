@@ -1,17 +1,12 @@
-// document.getElementById("count-el").innerText = 5
+// Create a function (you decide the name) that logs out the number 42 to the console 
+// call/invoke the function
 
-function countdown() {
-    console.log(5);
-    console.log(4);
-    console.log(3);
-    console.log(2);
-    console.log(1);
+
+function printnumber() {
+    console.log(42);
 }
 
-countdown()
-
-
-
+printnumber()
 
 
 
