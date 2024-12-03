@@ -24,10 +24,9 @@ function save(){
 
 save()
 
+// Create a variable, message that stores the string: "You have tree new notification"
 
-
-
-
+var message = "You have tree new notification"
 
 
 
