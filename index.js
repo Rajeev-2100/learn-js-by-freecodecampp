@@ -1,39 +1,17 @@
+// Create two variables, name and greeting. The name variable should store your name,
+// and the greeting should store e.g. "Hi, my name is "
 
-// intialize the count as 0
-// listen for clicks on the increment button
-// increment the count varible when the button is clicked 
-//(log it out) change the count-el in the HTML to reflect the new count
-
-let count = 0
-
-function increment() {
-    count = count + 1
-    // console.log(count)
-    document.getElementById("count-el").innerText = count
-}
+// Create a third variable, myGreeting, that contatenates the two strings
+// Log myGreeting to the console
 
 
-function decrement(){
-    count = count - 1
-    document.getElementById("count-el").innerText = count
-}
+let name = "Rajeev Rawat" 
 
-function save(){
-    console.log(count);   
-}
+let greeting = "Hi, my name is"
 
-save()
+let myGreeting = name + greeting
 
-// Create a variable, message that stores the string: "You have tree new notification"
-
-var message = "You have tree new notification"
-
-
-
-
-
-
-
+console.log(myGreeting);
 
 
 
