@@ -1,38 +1,23 @@
+// Grab the welcome-el paragraph and store it in a variable called welcomeEl
 
-// intialize the count as 0
-// listen for clicks on the increment button
-// increment the count varible when the button is clicked 
-//(log it out) change the count-el in the HTML to reflect the new count
+// Create two variables (name & greeting) that contains your name
+// and the greeting we want to render on the page
 
-let count = 0
+// Render the welcome message using welcomeEl.innerText
 
-function increment() {
-    count = count + 1
-    // console.log(count)
-    document.getElementById("count-el").innerText = count
-}
+let name = "Rajeev Rawat"
 
+let greeting = "Hi, my name is "
+let myGreeting = greeting + name
+// console.log(myGreeting)
 
-function decrement(){
-    count = count - 1
-    document.getElementById("count-el").innerText = count
-}
-
-function save(){
-    console.log(count);   
-}
-
-save()
-
-// Create a variable, message that stores the string: "You have tree new notification"
-let username = "Rajeev"
-let  message = "You have tree new notification"
+document.getElementById('welcome-el').innerText = myGreeting
 
 
 
-// Create a variable, messageToUser, that contains the message we have logged
 
-let messageToUser = message + "," + username + "!"
+
+
 
 
 
