@@ -1,14 +1,20 @@
-let firstCard = 10
-let secondCard = 22
-let sum = firstCard + secondCard
+// Check if the person is eligible for a birthday card from the King! (100)
 
-if (sum < 21) {
-    console.log("Do you want to draw a new card?");
-}else if (sum === 21) {
-    console.log("Wohoo! You've got Blackjack");
+let age = 100
+
+// if less than 100    -> "Not eligible"
+// else if exactly 100 -> "Here is your birthday card from the King!"
+// else                -> "Not eligible, you have already gotten one"
+
+if (age < 100) {
+    console.log("Not eligible");
+}else if(age === 100){
+    console.log("Here is your birthday card from the king!");
 }else {
-    console.log("You're out of the game!")
+    console.log("Not eligible, you have already gotten one")
 }
+
+
 
 
 
