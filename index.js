@@ -1,8 +1,20 @@
-// Create a for loop that counts from 10 to 100 in steps of 10
-// Use console.log to log out the numbers
+let messages = [
+    "Hey, how's it going?",        
+    "I'm great, thank you! How about you?",
+    "All good. Been working on my portfolio lately.",
+    "Same here!",
+    "Great to hear",
+    "😍"
+]
 
-for (let i = 10; i < 100; i += 10) {
-    console.log(i);
+// DRY - Don't repeat yourself
+// console.log(messages[0])
+// console.log(messages[1])
+// console.log(messages[2])
+// console.log(messages[3])
+
+for (let i = 0; i < 6; i++) {
+    console.log(messages[i]);
 }
 
 
