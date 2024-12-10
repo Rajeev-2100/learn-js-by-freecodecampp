@@ -1,13 +1,27 @@
-// Array - ordered list of items - coposite / complex data type
+let cards = [7,4]
 
-// Create an array that describes yourself. Use the three primitive data types you've learned
-// It should contain your name (string), your age (number), and whether you like pizza (boolean)
+cards.push(6)
 
-let myself = ["Rajeev Rawat", 22, true]
-
+// console.log(cards);
 
 
+// Push the newMessage to the messages array, and then log out the array
 
+let messages = [
+    "Hey, how's it going?",        
+    "I'm great, thank you! How about you?",
+    "All good. Been working on my portfolio lately."
+]
+
+let newMessage = "Same here!"
+
+messages.push(newMessage)
+console.log(messages);
+
+// How can you remove the last item in an array? Try to google it!
+
+messages.pop(messages)
+console.log(messages);
 
 
 
