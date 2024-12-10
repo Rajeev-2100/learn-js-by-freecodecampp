@@ -1,16 +1,9 @@
-// Arrays - ordered lists of items
+// Array - ordered list of items - coposite / complex data type
 
-let featuredPosts = [
-    "Check out my Netflix clone",
-    "Here's the code for my project",
-    "I've just relaunched my portfolio"
-]
+// Create an array that describes yourself. Use the three primitive data types you've learned
+// It should contain your name (string), your age (number), and whether you like pizza (boolean)
 
-// Create an array that lists your i.e. experience, education, licenses, skills or similar
-// The items of the array should be strings
-
-
-let listItems = ["Fresher","Dipmola PassOut in IT","No Licenses","Full stack developer"]
+let myself = ["Rajeev Rawat", 22, true]
 
 
 
