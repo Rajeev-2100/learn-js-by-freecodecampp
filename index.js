@@ -1,27 +1,47 @@
-let cards = [7,4]
+let firstCard = 10
+let secondCard = 4
+let cards = [firstCard, secondCard]
+let sum = firstCard + secondCard
+let hasBlackJack = false
+let isAlive = true
+let message = ""
+let messageEl = document.getElementById("message-el")
+let sumEl = document.getElementById("sum-el")
+let cardsEl = document.getElementById("cards-el")
 
-cards.push(6)
+function startGame() {
+    renderGame()
+}
 
-// console.log(cards);
+function renderGame() {
+    cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
+    sumEl.textContent = "Sum: " + sum
+    if (sum <= 20) {
+        message = "Do you want to draw a new card?"
+    } else if (sum === 21) {
+        message = "You've got Blackjack!"
+        hasBlackJack = true
+    } else {
+        message = "You're out of the game!"
+        isAlive = false
+    }
+    messageEl.textContent = message
+}
 
 
-// Push the newMessage to the messages array, and then log out the array
+function newCard() {
+    let card = 6
+    sum += card
+    // Push the card to the cards array
+    cards.push()
+    renderGame()
+}
 
-let messages = [
-    "Hey, how's it going?",        
-    "I'm great, thank you! How about you?",
-    "All good. Been working on my portfolio lately."
-]
-
-let newMessage = "Same here!"
-
-messages.push(newMessage)
-console.log(messages);
-
-// How can you remove the last item in an array? Try to google it!
-
-messages.pop(messages)
-console.log(messages);
+function newCard() {
+    let card = 6
+    sum += card
+    renderGame()
+}
 
 
 
