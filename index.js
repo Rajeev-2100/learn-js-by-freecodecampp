@@ -1,27 +1,11 @@
-let messages = [
-    "Hey, how's it going?",        
-    "I'm great, thank you! How about you?",
-    "All good. Been working on my portfolio lately.",
-    "Same here!",
-    "Great to hear",
-    "😍"
-]
+let sentence = ["Hello", "my", "name", "is", "Per"] 
+let greetingEl = document.getElementById("greeting-el")
 
-// DRY - Don't repeat yourself
-// console.log(messages[0])
-// console.log(messages[1])
-// console.log(messages[2])
-// console.log(messages[3])
+// how do you keep the spaces between the words if I remove them the array?
 
-for (let i = 0; i < 6; i++) {
-    console.log(messages[i]);
+for (let i = 0; i < sentence.length; i++){
+    greetingEl.textContent += sentence[i] + " ";
 }
-
-
-
-
-
-
 
 
 
