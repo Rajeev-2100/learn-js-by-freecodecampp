@@ -1,12 +1,13 @@
-let randomNumber = Math.random()
+let randomNumber = Math.random() * 6 
 
 console.log(randomNumber)
 
 
-/* 
+/*
 
-What does Math.random() do?
+In which range will our randomNumber be now?
 
-Your answer: 0.7954192722680433
+From:
+To:
 
 */
