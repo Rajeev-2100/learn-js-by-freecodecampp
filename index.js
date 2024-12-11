@@ -1,15 +1,14 @@
-let randomNumber = Math.random() * 6
+let randomNumber = Math.floor(Math.random() * 6)
 
-let flooredNumber = Math.floor(3.45632)
 
 console.log(flooredNumber)
 
 
 /* 
 
-What does Math.floor() do to positive numbers?
+Write down all the possible values randomNumber can hold now!
 
-Your answer: 
+number between 1 to 5
 
 */
 
